@@ -1,3 +1,5 @@
-h1 {
-  color: red;
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
