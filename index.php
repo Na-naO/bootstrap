@@ -95,24 +95,25 @@
 <div class="container form">
   <div class="box">
     <h2>お問い合わせフォーム</h2>
-    <form>
+    <form method="POST" action="check.php">
+      
       
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="inputEmail4">Name</label>
-          <input type="email" class="form-control" id="inputEmail4" >
+          <input type="email" name="name" class="form-control" id="inputEmail4" >
         </div>
       </div>
       <div class="form-group">
         <label for="inputAddress">Email</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="    @gmail.com">
+        <input type="text" name="email" class="form-control" id="inputAddress" placeholder="    @gmail.com">
       </div>
       <div class="form-group">
-        <label for="inputAddress2">Inquiry</label><br>
+        <label for="inputAddress2">Content</label><br>
         <textarea name="content" cols="40" rows="5"></textarea>
-        <!-- <input type="text" class="form-control" id="inputAddress2" > -->
+        <!-- <input type="text" name="address" class="form-control" id="inputAddress2" > -->
       </div>
-      <div class="form-row">
+      <!-- <div class="form-row">
         <div class="form-group col-md-4">
           <label for="inputState">Response required by</label>
           <select id="inputState" class="form-control">
@@ -122,7 +123,7 @@
           </select>
         </div>
         
-      </div>
+      </div> -->
       <!-- <div class="form-group">
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="gridCheck">
