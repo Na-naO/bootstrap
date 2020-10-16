@@ -101,12 +101,12 @@
       <div class="form-row">
         <div class="form-group col-md-6">
           <label for="inputEmail4">Name</label>
-          <input type="email" name="name" class="form-control" id="inputEmail4" >
+          <input type="text" name="name" class="form-control" id="inputEmail4" >
         </div>
       </div>
       <div class="form-group">
-        <label for="inputAddress">Email</label>
-        <input type="text" name="email" class="form-control" id="inputAddress" placeholder="    @gmail.com">
+        <label for="inputEmail4">Email</label>
+        <input type="text" name="email" class="form-control" id="inputEmail4" placeholder="    @gmail.com">
       </div>
       <div class="form-group">
         <label for="inputAddress2">Content</label><br>
